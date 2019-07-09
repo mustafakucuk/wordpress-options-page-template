@@ -1,0 +1,173 @@
+/*!
+ * WordPress Options Page Template
+ * Mustafa KÜÇÜK
+ * devmustafakucuk@gmail.com
+ */
+
+/* General */
+.mk-plugin-panel {
+    width: 100%;
+}
+
+.mk-plugin-panel-heading {
+    padding:15px;
+    border-radius: 4px 4px 0 0;
+    background: -moz-linear-gradient(left, rgba(37, 37, 37,1) 0%, rgba(57,119,212,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(37, 37, 37,1) 0%,rgba(57,119,212,1) 100%);
+    background: linear-gradient(to right, rgba(37, 37, 37,1) 0%,rgba(57,119,212,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#345cb5', endColorstr='#3977D4',GradientType=1);
+    color: #fff;
+}
+  
+.mk-plugin-panel-heading span {
+    font-size: 18px;
+}
+  
+.mk-plugin-panel-heading small {
+    color: #fff;
+    font-size: 10px;
+}
+  
+.pull-right {
+    float: right;
+}
+  
+.pull-right .submit {
+    margin: -5px;
+    padding: 0;
+}
+  
+.mk-plugin-panel-body {
+    background:#fff;
+    display: block;
+    padding:15px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    border-radius: 4px;
+}
+
+.mk-plugin-panel-body label{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.mk-plugin-margin-10 {
+    margin: 10px 0 !important;
+}
+
+/* Form */
+.mk-plugin-form-control {
+    width: 100%;
+    padding: 10px 15px !important;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background-color: #e6e6e6 !important;
+    color: #7b7b7b;
+}
+  
+.mk-plugin-select-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+  
+.mk-plugin-select-container select {
+    display: inline-block;
+    height: auto !important;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+  
+.mk-plugin-select-container select::-ms-expand {
+    display: none;
+}
+  
+.mk-plugin-select-container select:hover,
+.mk-plugin-select-container select:focus {
+    color: #000;
+    background: #ccc;
+}
+  
+.mk-plugin-select-container select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+  
+.mk-plugin-select-arrow {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+  
+.mk-plugin-select-container select:hover ~ .mk-plugin-select-arrow,
+.mk-plugin-select-container select:focus ~ .mk-plugin-select-arrow {
+    border-top-color: #000;
+}
+  
+.mk-plugin-select-container select:disabled ~ .mk-plugin-select-arrow {
+    border-top-color: #ccc;
+}
+
+.mk-plugin-help-block {
+    color: #909090dd;
+    font-size: 11px;
+}
+
+/* Alerts */
+.mk-plugin-alert{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    margin: 0 0 10px;
+}
+
+.mk-plugin-alert.danger{
+    background:#e14853;
+    color: #fff;
+}
+
+.mk-plugin-alert.success{
+    background:#009688;
+    color: #fff;
+}
+
+.mk-plugin-alert.info {
+    background:#0085ba;
+    color: #fff;
+}
+
+/* Block */
+.mk-plugin-block-title{
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom:1px solid #f0f0f0;
+    padding:0 0 10px;
+    margin-bottom: 10px;
+}
+  
+.mk-plugin-block-title small{
+    font-size: 12px;
+}
+  
+.mk-plugin-block{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.mk-plugin-block:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
